@@ -1,4 +1,3 @@
-
 #EXTM3U
 
 # Some tv channels use DRM, maybe the channel cannot be played (usually stuck loading) because your device does not support DRM.
@@ -6,16 +5,16 @@
 # PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
 # You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
 
-//========================================================================
-//Collected by @securiben menampilkan playlist >>> ANIME
-//========================================================================
+// ========================================================================
+// PLAYLIST ANIME
+// ========================================================================
 
 #EXTINF:-1 tvg-id="ANIPLUS" tvg-name="ANIPLUS" group-title="Favorites" tvg-logo="https://www.animepilipinas.com/wp-content/uploads/2016/06/Aniplus-HD.jpg",ANIPLUS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 http://op-group1-swiftservehd-1.dens.tv/h/h201/02.m3u8
 
 //========================================================================
-//Collected by @securiben menampilkan playlist >>> LOCAL
+// PLAYLIST LOCAL
 //========================================================================
 
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/RCTI.png",RCTI
@@ -99,7 +98,7 @@ http://202.147.193.244/live/eds/SEA-Channel/sa_dash/SEA-Channel.mpd
 http://202.147.193.244/live/eds/IDX/sa_dash/IDX.mpd
 
 //========================================================================
-//Collected by @securiben menampilkan playlist >>> SPORTS
+// PLAYLIST SPORTS
 //========================================================================
 
 #EXTINF:-1 tvg-id="TVRI SPORT" tvg-name="TVRI SPORT" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/TVRI-Sport-HD.png",TVRI SPORT
