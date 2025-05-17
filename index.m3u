@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U x-tvg-url="https://iptvsystem.my.id/epg,https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz,http://trada.info/epg.xml,http://lichphatsong.xyz/schedule/epg.xml,https://warningfm.github.io/x1/epg/guide.xml.gz" refresh="3600"
+#EXTM3U x-tvg-url="https://iptvsystem.my.id/epg" refresh="3600"
 
 # Some tv channels use DRM, maybe the channel cannot be played (usually stuck loading) because your device does not support DRM.
 # This is a live tv playlist selected for OTT Player app only (you can find it in Play Store but i don't know is that available in App Store).
