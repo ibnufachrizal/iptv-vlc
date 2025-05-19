@@ -1,10 +1,22 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptvsystem.my.id/epg" refresh="3600"
+#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml.gz"
+#EXTM3U url-tvg="http://cvtv.xyz/xmltv"
+#EXTM3U url-tvg="https://iptvx.one/EPG"interlace=0
+#EXTM3U url-tvg="https://github.com/iptv-pro/iptv-pro.github.io/tree/main/epg" cache=500interlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500interlace=1 aspect-ratio=16:9 m3uautoload=3
+#EXTM3U url-tvg="https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600" 
 
 # Some tv channels use DRM, maybe the channel cannot be played (usually stuck loading) because your device does not support DRM.
 # This is a live tv playlist selected for OTT Player app only (you can find it in Play Store but i don't know is that available in App Store).
 # PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
 # You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
+
+#EXTINF: -1,DUNIA LAIN
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505831.m3u8
+ 
+#EXTINF:-1,Makkah TV
+http://cdn.nng.cloudns.us/live/m3u8/ar/3058a2456b128c1.m3u8
 
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #KODIPROP:mimetype=application/x-mpegURL
@@ -25,21 +37,60 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://wildearth-plex.amagi.tv/master.m3u8
 
+#EXTINF:-1,INWILD
+https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CINEMAX" tvg-name="CINEMAX" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",HBO CINEMAX
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://smart.pendy.dpdns.org/Smart.php?id=Cinemax
+
+#EXTINF:-1 tvg-id="ANIMAX" tvg-name="ANIMAX" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",ANIMAX
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://smart.pendy.dpdns.org/Smart.php?id=Animax
+
+//========================================================================
+// PLAYLIST CARTOON
+//========================================================================
+
+#EXTINF: -1,CARTOON NETWORK
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505818.m3u8
+
+#EXTINF: -1,Dreamwork
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505829.m3u8
+
+#EXTINF: -1,dunia anak
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505830.m3u8
+
+#EXTINF: -1,HoRee!
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505844.m3u8
+
+#EXTINF: -1,Fun pLaNeT
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505848.m3u8
+
+#EXTINF: -1,nick jr.
+#http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505861.m3u8
+
+#EXTINF: -1,nickelodeon
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505862.m3u8
+
+#EXTINF:-1,DisneyXD
+http://fortv.cc:8080/live/cQnq6G/652882/75621.m3u8
+
 //========================================================================
 // PLAYLIST LOCAL
 //========================================================================
 
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/RCTI.png",RCTI
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streamo.web.id/api/1/get/live/tv/channel/14.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=Rcti
 
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/mnctv.png",MNCTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streamo.web.id/api/1/get/live/tv/channel/15.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=Mnctv
 
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/gtv.png",GTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streamo.web.id/api/1/get/live/tv/channel/16.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=Gtv
 
 #EXTINF:-1 tvg-id="Trans 7" tvg-name="Trans 7" tvg-logo="https://iptvsystem.my.id/img/trans7.png" group-title="Favorites",TRANS 7
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -47,22 +98,19 @@ https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
 
 #EXTINF:-1 tvg-id="Trans TV" tvg-name="Trans TV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/transtv.png",TRANS TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://video.detik.com/transtv/smil:transtv.smil/index.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=Transtv
 
 #EXTINF:-1 tvg-id="ANTV" tvg-name="ANTV" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/fd/Antv_logo%282009%29.png",ANTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-http://iptv.kilas7.com:80/live/kaukia/asdfrewq/7.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=Antv
 
 #EXTINF:-1 tvg-id="INDOSIAR" tvg-name="INDOSIAR" tvg-logo="https://iili.io/JMp3wV1.png" group-title="Favorites",INDOSIAR
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:http-referrer=http://dens.tv
-http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://smart.pendy.dpdns.org/Smart.php?id=Indosiar
 
 #EXTINF:-1 tvg-id="SCTV" tvg-name="SCTV" tvg-logo="https://iili.io/JMp3iiX.png" group-title="Favorites",SCTV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-http://khano.nng.cloudns.us/live/m3u8/id/2b8fc230e8f847a.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=SCTV
 
 #EXTINF:-1 tvg-id="MOJI TV" tvg-name="MOJI TV" tvg-logo="https://cdns.klimg.com/merdeka.com/i/w/news/2022/08/30/1467272/540x270/moji-surga-tontonan-bagi-pemirsa-olahraga-dan-anak-muda.png" group-title="Favorites",MOJI TV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -84,11 +132,15 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1230509683_b
 
 #EXTINF:-1 tvg-id="TV ONE" tvg-name="TV ONE" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/tvone.png",TV ONE
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-http://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=Tvone
 
 #EXTINF:-1 tvg-id="GARUDA TV" tvg-name="GARUDA TV" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/GarudaTv.png",GARUDA TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+
+#EXTINF:-1 tvg-id="RTV" tvg-name="RTV" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/250px-Rajawali_Televisi.svg.png",RTV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+https://smart.pendy.dpdns.org/Smart.php?id=Rtv
 
 #EXTINF:-1 tvg-id="RRINET" tvg-name="RRINET" group-title="Favorites" tvg-logo="https://iili.io/Jmo8ULF.png",RRI NET
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -105,11 +157,11 @@ http://202.147.193.244/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
 
 #EXTINF:-1 tvg-id="METRO TV" tvg-name="METRO TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",METRO TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-http://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=metrotv_eko
 
 #EXTINF:-1 tvg-id="KOMPAS TV" tvg-name="KOMPAS TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_106.png",KOMPAS TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-http://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8
+https://smart.pendy.dpdns.org/Smart.php?id=Kompass
 
 #EXTINF:-1 tvg-id="SINDO NEWS" tvg-name="SINDO NEWS" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/SindoNews.png",SINDONEWS
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -163,6 +215,21 @@ https://d18izuz3xw10qm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 //========================================================================
 // PLAYLIST SPORTS
 //========================================================================
+
+#EXTINF: -1,SPOTV
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505814.m3u8
+
+#EXTINF: -1,SPOTV2
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505815.m3u8
+
+#EXTINF:-1,DubaiSports 1
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/master.m3u8
+
+#EXTINF:-1,DubaiSports 2
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1,DubaiSports 3	
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="TVRI SPORT" tvg-name="TVRI SPORT" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/TVRI-Sport-HD.png",TVRI SPORT
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -298,3 +365,32 @@ http://tv.cloudcdn.me:80/live.ts?channelId=105349&uid=15301&deviceMac=00:1A:79:1
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 5 " tvg-name="SONY SPORTS TEN 5" group-title="Favorites" tvg-logo="https://i.imgur.com/YEH5jdY.png",SONY SPORTS TEN 5
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 http://mutant.arrox.top:80/play/live.php?mac=00:1A:79:FF:04:8C&stream=487335&extension=m3u8
+
+#EXTINF:-1,tvg-id="体育频道|Arena" tvg-name="体育频道|Arena" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena
+https://smart.pendy.dpdns.org/Smart.php?id=Arena
+#EXTINF:-1,tvg-id="体育频道|Arena 2" tvg-name="体育频道|Arena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena 2
+https://smart.pendy.dpdns.org/Smart.php?id=Arena2
+#EXTINF:-1,tvg-id="体育频道|BolaArena 1" tvg-name="体育频道|BolaArena 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA1.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 1
+https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena1
+#EXTINF:-1,tvg-id="体育频道|BolaArena 2" tvg-name="体育频道|BolaArena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 2
+https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena2
+#EXTINF:-1 tvg-id="Astro.Premier.League.my" tvg-logo="https://i.imgur.com/M4nTRLb.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League FHD
+https://smart.pendy.dpdns.org/Smart.php?id=Assp1
+#EXTINF:-1 tvg-id="Astro.Premier.League.2.my" tvg-logo="https://i.imgur.com/f6hG3Ok.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League 2 FHD
+https://smart.pendy.dpdns.org/Smart.php?id=Assp2
+#EXTINF:-1 tvg-id="Astro.Grandstand.my" tvg-logo="https://i.imgur.com/u92HNWn.png" group-title="THỂ THAO QUỐC TẾ", Astro Grandstand FHD
+https://smart.pendy.dpdns.org/Smart.php?id=Assp3
+#EXTINF:-1 tvg-id="Astro.Football.my" tvg-logo="https://i.imgur.com/ixUEirO.png" group-title="THỂ THAO QUỐC TẾ", Astro Football FHD
+https://smart.pendy.dpdns.org/Smart.php?id=Assp4
+#EXTINF:-1,tvg-id="体育频道|Astro Sports Plus" tvg-name="体育频道|Astro Sports Plus" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROSPORTSPLUS.png" group-title="THỂ THAO QUỐC TẾ",Astro Sports Plus
+https://smart.pendy.dpdns.org/Smart.php?id=go_sportsplus
+#EXTINF:-1,tvg-id="体育频道|Astro Badminton 1" tvg-name="体育频道|Astro Badminton 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON1.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 1
+https://smart.pendy.dpdns.org/Smart.php?id=go_badminton1
+#EXTINF:-1,tvg-id="体育频道|Astro Badminton 2" tvg-name="体育频道|Astro Badminton 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON2.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 2
+https://smart.pendy.dpdns.org/Smart.php?id=go_badminton2
+#EXTINF:-1,tvg-id="体育频道|Astro W-Sports" tvg-name="体育频道|Astro W-Sports" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROWSPORTS.png" group-title="THỂ THAO QUỐC TẾ",Astro W-Sports
+https://smart.pendy.dpdns.org/Smart.php?id=go_assp5
+#EXTINF:-1,tvg-id="体育频道|Astro Cricket" tvg-name="体育频道|Astro Cricket" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROCRICKET.png" group-title="THỂ THAO QUỐC TẾ",Astro Cricket
+https://smart.pendy.dpdns.org/Smart.php?id=Acricket
+#EXTINF:-1,tvg-id="体育频道|Astro Golf" tvg-name="体育频道|Astro Golf" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROGOLF.png" group-title="THỂ THAO QUỐC TẾ",Astro Golf
+https://smart.pendy.dpdns.org/Smart.php?id=Agolf
