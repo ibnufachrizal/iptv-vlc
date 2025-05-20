@@ -1,11 +1,11 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://iptvsystem.my.id/epg" refresh="3600"
-#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml.gz"
-#EXTM3U url-tvg="http://cvtv.xyz/xmltv"
-#EXTM3U url-tvg="https://iptvx.one/EPG"interlace=0
-#EXTM3U url-tvg="https://github.com/iptv-pro/iptv-pro.github.io/tree/main/epg" cache=500interlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
-#EXTM3U url-tvg="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500interlace=1 aspect-ratio=16:9 m3uautoload=3
-#EXTM3U url-tvg="https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600" 
+#EXTM3U x-tvg-url="http://lichphatsong.xyz/schedule/epg.xml.gz"
+#EXTM3U x-tvg-url="http://cvtv.xyz/xmltv"
+#EXTM3U x-tvg-url="https://iptvx.one/EPG"interlace=0
+#EXTM3U x-tvg-url="https://github.com/iptv-pro/iptv-pro.github.io/tree/main/epg" cache=500interlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
+#EXTM3U x-tvg-url="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500interlace=1 aspect-ratio=16:9 m3uautoload=3
+#EXTM3U x-tvg-url="https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600" 
 
 # Some tv channels use DRM, maybe the channel cannot be played (usually stuck loading) because your device does not support DRM.
 # This is a live tv playlist selected for OTT Player app only (you can find it in Play Store but i don't know is that available in App Store).
