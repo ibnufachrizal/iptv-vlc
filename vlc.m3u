@@ -1,0 +1,489 @@
+#EXTM3U
+#EXTM3U x-tvg-url="https://iptvsystem.my.id/epg, http://lichphatsong.xyz/schedule/epg.xml.gz, http://cvtv.xyz/xmltv, https://github.com/iptv-pro/iptv-pro.github.io/raw/refs/heads/main/epg/epg.xml, https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600"
+
+# Some tv channels use DRM, maybe the channel cannot be played (usually stuck loading) because your device does not support DRM.
+# This is a live tv playlist selected for OTT Player app only (you can find it in Play Store but i don't know is that available in App Store).
+# PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
+# You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
+
+#EXTINF: -1,DUNIA LAIN
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505831.m3u8
+ 
+#EXTINF:-1,Makkah TV
+#EXTVLCOPT:network-caching=1000
+http://cdn.nng.cloudns.us/live/m3u8/ar/3058a2456b128c1.m3u8
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=application/x-mpegURL
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.stream_mode=timeshift
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 tvg-id="ANIPLUS" tvg-name="ANIPLUS" group-title="Favorites" tvg-logo="https://www.animepilipinas.com/wp-content/uploads/2016/06/Aniplus-HD.jpg",ANIPLUS
+#EXTVLCOPT:network-caching=1000
+https://op-group1-swiftservehd-1.dens.tv/h/h201/02.m3u8?app_type=web&userid=lite&chname=ANIPLUS
+
+#EXTINF:-1 tvg-id="LOVE NATURE" tvg-name="LOVE NATURE" group-title="Favorites" tvg-logo="https://i.ibb.co/zVTNdBP/lovenature.png",LOVE NATURE
+#EXTVLCOPT:http-user-agent=MNCNow/6.33.3 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTVLCOPT:network-caching=1000
+https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="WILD EARTH" tvg-name="WILD EARTH" group-title="Favorites" tvg-logo="https://img0.baidu.com/it/u=3210853476,3561785709&fm=253&fmt=auto&app=138&f=PNG?w=350&h=220",WILD EARTH
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://wildearth-plex.amagi.tv/master.m3u8
+
+#EXTINF:-1,INWILD
+#EXTVLCOPT:network-caching=1000
+https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CINEMAX" tvg-name="CINEMAX" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",HBO CINEMAX
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Cinemax
+
+#EXTINF:-1 tvg-id="ANIMAX" tvg-name="ANIMAX" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",ANIMAX
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Animax
+
+//========================================================================
+// PLAYLIST CARTOON
+//========================================================================
+
+#EXTINF: -1,CARTOON NETWORK
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505818.m3u8
+
+#EXTINF: -1,Dreamwork
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505829.m3u8
+
+#EXTINF: -1,Dunia Anak
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505830.m3u8
+
+#EXTINF: -1,HoRee!
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505844.m3u8
+
+#EXTINF: -1,Fun pLaNeT
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505848.m3u8
+
+#EXTINF: -1,nick jr.
+#EXTVLCOPT:network-caching=1000
+#http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505861.m3u8
+
+#EXTINF: -1,nickelodeon
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505862.m3u8
+
+#EXTINF:-1,DisneyXD
+#EXTVLCOPT:network-caching=1000
+http://fortv.cc:8080/live/cQnq6G/652882/75621.m3u8
+
+//========================================================================
+// PLAYLIST LOCAL
+//========================================================================
+
+#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/RCTI.png",RCTI
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Rcti
+
+#EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/mnctv.png",MNCTV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Mnctv
+
+#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/gtv.png",GTV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Gtv
+
+#EXTINF:-1 tvg-id="Trans 7" tvg-name="Trans 7" tvg-logo="https://iptvsystem.my.id/img/trans7.png" group-title="Favorites",TRANS 7
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
+
+#EXTINF:-1 tvg-id="Trans TV" tvg-name="Trans TV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/transtv.png",TRANS TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Transtv
+
+#EXTINF:-1 tvg-id="ANTV" tvg-name="ANTV" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/fd/Antv_logo%282009%29.png",ANTV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Antv
+
+#EXTINF:-1 tvg-id="INDOSIAR" tvg-name="INDOSIAR" tvg-logo="https://iili.io/JMp3wV1.png" group-title="Favorites",INDOSIAR
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Indosiar
+
+#EXTINF:-1 tvg-id="SCTV" tvg-name="SCTV" tvg-logo="https://iili.io/JMp3iiX.png" group-title="Favorites",SCTV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=SCTV
+
+#EXTINF:-1 tvg-id="MOJI TV" tvg-name="MOJI TV" tvg-logo="https://cdns.klimg.com/merdeka.com/i/w/news/2022/08/30/1467272/540x270/moji-surga-tontonan-bagi-pemirsa-olahraga-dan-anak-muda.png" group-title="Favorites",MOJI TV
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=http://dens.tv
+#EXTVLCOPT:network-caching=1000
+http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+
+#EXTINF:-1 tvg-id="MDTV" tvg-name="MDTV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/mdtv.png",MDTV
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=http://dens.tv
+#EXTVLCOPT:network-caching=1000
+http://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
+
+#EXTINF:-1 tvg-id="CNN INDONESIA" tvg-name="CNN INDONESIA" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/cnnindonesia.png",CNN INDONESIA
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1238913108_b384000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="CNBC INDONESIA" tvg-name="CNBC INDONESIA" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/cnbcindonesia.png",CNBC INDONESIA
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1230509683_b384000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="TV ONE" tvg-name="TV ONE" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/tvone.png",TV ONE
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Tvone
+
+#EXTINF:-1 tvg-id="GARUDA TV" tvg-name="GARUDA TV" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/GarudaTv.png",GARUDA TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+
+#EXTINF:-1 tvg-id="RTV" tvg-name="RTV" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/250px-Rajawali_Televisi.svg.png",RTV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Rtv
+
+#EXTINF:-1 tvg-id="RRINET" tvg-name="RRINET" group-title="Favorites" tvg-logo="https://iili.io/Jmo8ULF.png",RRI NET
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://public-streaming.rri.co.id/memfs/a3a573d6-1ed3-4d6e-9f9f-e9a4e2cefd9d.m3u8
+
+#EXTINF:-1 tvg-id="INEWS TV" tvg-name="INEWS TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_83.png",INEWS TV
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://202.147.193.244/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
+
+#EXTINF:-1 tvg-id="METRO TV" tvg-name="METRO TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",METRO TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=metrotv_eko
+
+#EXTINF:-1 tvg-id="KOMPAS TV" tvg-name="KOMPAS TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_106.png",KOMPAS TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Kompass
+
+#EXTINF:-1 tvg-id="SINDO NEWS" tvg-name="SINDO NEWS" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/SindoNews.png",SINDONEWS
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://202.147.193.244/live/eds/MNCnews-HDD/sa_dash/MNCnews-HDD.mpd
+
+#EXTINF:-1 tvg-id="SEATODAY" tvg-name="SEATODAY" group-title="Favorites" tvg-logo="https://www.visionplus.id/images/repository/594/594-LOGO-m.png",SEA TODAY
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://202.147.193.244/live/eds/SEA-Channel/sa_dash/SEA-Channel.mpd
+
+#EXTINF:-1 tvg-id="IDX" tvg-name="IDX" group-title="Favorites" tvg-logo="https://www.visionplus.id/images/repository/659/659-LOGO-m.png",IDX
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://202.147.193.244/live/eds/IDX/sa_dash/IDX.mpd
+
+// ========================================================================
+// PLAYLIST KOREA
+// ========================================================================
+
+#EXTINF:-1 tvg-id="tvN" tvg-name="tvN" group-title="Favorites" tvg-logo="https://telegra.ph/file/748edf4c2c677532e7ed8.png",tvN
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=http://dens.tv
+#EXTVLCOPT:network-caching=1000
+http://op-group1-swiftservehd-1.dens.tv/h/h20/01.m3u8
+
+#EXTINF:-1 tvg-id="K+ HD" tvg-name="K+ HD" group-title="Favorites" tvg-logo="https://i.ibb.co/vjhX0S9/kplus.jpg",K+ HD
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://streaming.indihometv.com/atm/DASH/kplus/manifest.mpd
+
+#EXTINF:-1 tvg-id="Korean TV" tvg-name="Korean TV" group-title="Favorites" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC4300008IH_20230524T004217SQUARE.png_20230524004217.png",Korean TV
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://d18izuz3xw10qm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7d2zn3pthct37-ssai-prd/68bf80a2_aec4_494d_b2ef_63779ed40809/hls/playlist.m3u8
+
+//========================================================================
+// PLAYLIST SPORTS
+//========================================================================
+
+#EXTINF: -1,SPOTV
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505814.m3u8
+
+#EXTINF: -1,SPOTV2
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505815.m3u8
+
+#EXTINF:-1,DubaiSports 1
+#EXTVLCOPT:network-caching=1000
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/master.m3u8
+
+#EXTINF:-1,DubaiSports 2
+#EXTVLCOPT:network-caching=1000
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1,DubaiSports 3
+#EXTVLCOPT:network-caching=1000
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="TVRI SPORT" tvg-name="TVRI SPORT" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/TVRI-Sport-HD.png",TVRI SPORT
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZGZjMjFhNzUtMjY3ZC0zYWQ2LWI1N2ItMjdiNjRkOTBiMzFj
+#EXTVLCOPT:network-caching=1000
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD-avc1_2500000=10004-mp4a_96000_eng=20003.m3u8
+
+#EXTINF:-1 tvg-id="Red Bull TV" tvg-name="Red Bull TV" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/redbulltv.png",Red Bull TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 tvg-id="WWE 1" tvg-name="WWE 1" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/queen_logo/refs/heads/queen/wwe.png",WWE 1
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://tvmate.icu:8080/69NpyV/884735/11645
+
+#EXTINF:-1 tvg-id="WWE 2" tvg-name="WWE 2" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/queen_logo/refs/heads/queen/wwe.png",WWE 2
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://d2p372oxiwmcn1.cloudfront.net/hls/1080p/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BILLIARD TV" tvg-name="BILLIARD TV" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/queen_logo/refs/heads/queen/billiardtv.png",BILLIARD TV
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV_SCTE.m3u8
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 1" tvg-name="BEIN SPORTS 1" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 1
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/0507102290a/0507102290a/49598
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 2" tvg-name="BEIN SPORTS 2" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 2
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/0507102290a/0507102290a/49599
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 3" tvg-name="BEIN SPORTS 3" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 3
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/556224433k/9004455221/49600
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 4" tvg-name="BEIN SPORTS 4" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 4
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/556224433k/9004455221/49601
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 5" tvg-name="BEIN SPORTS 5" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 5
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/556224433k/9004455221/49602
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 6" tvg-name="BEIN SPORTS 6" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 6
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/556224433k/9004455221/49603
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 7" tvg-name="BEIN SPORTS 7" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 7
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/556224433k/9004455221/49604
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 8" tvg-name="BEIN SPORTS 8" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 8
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/556224433k/9004455221/49605
+
+#EXTINF:-1 tvg-id="BEIN SPORTS 9" tvg-name="BEIN SPORTS 9" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS 9
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://ktv.im:8080/556224433k/9004455221/49541
+
+#EXTINF:-1 tvg-id="BEIN SPORTS EXTRA" tvg-name="BEIN SPORTS EXTRA" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS EXTRA
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BEIN SPORTS MAX 4" tvg-name="BEIN SPORTS MAX 4" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS MAX 4
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://45.143.220.107:8080/live/556224433k/9004455221/111157.m3u8?token=HhZfUENZQwMTUw8LAQRQB1IBBlIDUQFXUQ1WBFIGVlEHAQ5XVAlYC1MSGhFFFhZVAg5qXlIXXwQFCFABBhsWERZRRW5ZVUMDEwMPAQBSRhxBF1xaUxdfBRgbEV1VFQ5GVgwAAwgTTRtUSEJWRAwFXDwHUEFfVgAXDlcUWF0bFgsLa1NUXVAPXRMKFAIUTkZZEBMXDVhACVkYGwNdRUVVEAAWDV9FXQ0VE1NZRlgWFklBWRd+chdJF1FBFVFfRF0LCxYNE10CFAETHBRaRT0WVRAXR1JXWABHFgNDBBMbFgkETGhSX18PXFJEX1xYEUYKQVIXGxRYCltdTQ5GbkddAEcOFQIIAlIAE00=
+
+#EXTINF:-1 tvg-id="BEIN SPORTS MAX 5" tvg-name="BEIN SPORTS MAX 5" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS MAX 5
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://45.143.220.107:8080/live/556224433k/9004455221/111159.m3u8?token=HhZfUENZQwMTBVUBAFpXBVVVAwEPAF0NAl9WAwYCUVRdVg8IUVQAXwUSGhFFFhZVAg5qXlIXXwQFCFABCBsWERZRRW5ZVUMDEwMPAQBSRhxBF1xaUxdfBRgbEV1VFQ5GVAQPCQMTTRtUSEJWRAwFXDwHUEFfVgAXDlcUWF0bFgsLa1NUXVAPXRMKFAIUTkZZEBMXDVhACVkYGwNdRUVVEAAWDV9FXQ0VE1NZRlgWFklBWRd+chdJF1FBFVFfRF0LCxYNE10CFAETHBRaRT0WVRAXR1JXWABHFgNDBBMbFgkETGhSX18PXFJEX1xYEUYKQVIXGxRYCltdTQ5GbkddAEcOFQAABlAME00=
+
+#EXTINF:-1 tvg-id="BEIN SPORTS MAX 6" tvg-name="BEIN SPORTS MAX 6" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS MAX 6
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://45.143.220.107:8080/live/556224433k/9004455221/111161.m3u8?token=HhZfUENZQwMTB1QBBVdRCABWBVEEBAZUBVsDDVdUVQdUDQ5XAVMDC1QSGhFFFhZVAg5qXlIXXwQFCFACABsWERZRRW5ZVUMDEwMPAQBSRhxBF1xaUxdfBRgbEV1VFQ5GVAEPBwcTTRtUSEJWRAwFXDwHUEFfVgAXDlcUWF0bFgsLa1NUXVAPXRMKFAIUTkZZEBMXDVhACVkYGwNdRUVVEAAWDRMBAlEKExwUUFkXCkQRGhcNFHwhFxgbBExFUloXDFtZEwoTDApECBQfFAsXbxEGRkNEUARYUUtDDhMHFkhHWVZJb1IOV19VVUdfDQpDQVkXBhQZR1hbVwhAXkVrFAxQFQsSAFcABQUUTg==
+
+#EXTINF:-1 tvg-id="BEIN SPORTS MAX 7" tvg-name="BEIN SPORTS MAX 7" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS MAX 7
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://45.143.220.107:8080/live/556224433k/9004455221/111163.m3u8?token=HhZfUENZQwMTVFBRAVUFCFtQDFRSBV1TAgsADAMCDVcEAVMDAVICWFUSGhFFFhZVAg5qXlIXXwQFCFACAhsWERZRRW5ZVUMDEwMPAQBSRhxBF1xaUxdfBRgbEV1VFQ4KEFhbHRJUGU1UQlhSWj0AVRUKVlIUDwtAWFVNFl5ZawAAWVZfVBNbGwASGhFfERQSWQ1AW1oZR1ddTRNVRVIWXgtBW10cEwJWRF5CQU9AXhIqJxcbFFAdQVFXEl1eWRZeR1kERAgTTRtYQ2lBUxEQQgYCWFJEF18XBBtNFlxWTDsGW1lfVVIVUF5eRREMQFUST0FYWFhcEVpGZhFdVRUOChBYW0w=
+
+#EXTINF:-1 tvg-id="BEIN SPORTS MAX 8" tvg-name="BEIN SPORTS MAX 8" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS MAX 8
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://45.143.220.107:8080/live/556224433k/9004455221/111165.m3u8?token=HhZfUENZQwMTCFVVAwcBAwYHBwcEUVYCUQ0CUQhRDFNXAg4BUVVVAFcSGhFFFhZVAg5qXlIXXwQFCFACBBsWERZRRW5ZVUMDEwMPAQBSRhxBF1xaUxdfBRgbEV1VFQ5GVwAGBAUTTRtUSEJWRAwFXDwHUEFfVgAXDlcUWF0bFgsLa1NUXVAPXRMKFAIUTkZZEBMXDVhACVkYGwNdRUVVEAAWDRMDB1ILExwUUFkXCkQRGhcNFHwhFxgbBExFUloXDFtZEwoTDApECBQfFAsXbxEGRkNEUARYUUtDDhMHFkhHWVZJb1IOV19VVUdfDQpDQVkXBhQZR1hbVwhAXkVrFAxQFQsSA1UIAQYUTg==
+
+#EXTINF:-1 tvg-id="BEIN SPORTS MAX 9" tvg-name="BEIN SPORTS MAX 9" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS MAX 9
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://45.143.220.107:8080/live/556224433k/9004455221/111167.m3u8?token=HhZfUENZQwMTBQ5VBFRRVAJbBwVUBFdWAVoAAwJSUlABAFMGAlBXWgYSGhFFFhZVAg5qXlIXXwQFCFACBhsWERZRRW5ZVUMDEwMPAQBSRhxBF1xaUxdfBRgbEV1VFQ5GVwwOAwATTRtUSEJWRAwFXDwHUEFfVgAXDlcUWF0bFgsLa1NUXVAPXRMKFAIUTkZZEBMXDVhACVkYGwNdRUVVEAAWDV9FXQ0VE1NZRlgWFklBWRd+chdJF1FBFVFfRF0LCxYNE10CFAETHBRaRT0WVRAXR1JXWABHFgNDBBMbFgkETGhSX18PXFJEX1xYEUYKQVIXGxRYCltdTQ5GbkddAEcOFQMIB1cIE00=
+
+#EXTINF:-1 tvg-id="BEIN SPORTS MAX 10" tvg-name="BEIN SPORTS MAX 10" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sport_logo.png/320px-Bein_sport_logo.png",BEIN SPORTS MAX 10
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://45.143.220.107:8080/live/556224433k/9004455221/111169.m3u8?token=HhZfUENZQwMTUgQGB1pRAAVWBgZXAFJTAVwAAFcHAlxcAQIGUwRVW1MSGhFFFhZVAg5qXlIXXwQFCFACCBsWERZRRW5ZVUMDEwMPAQBSRhxBF1xaUxdfBRgbEV1VFQ5GVgYDBAMTTRtUSEJWRAwFXDwHUEFfVgAXDlcUWF0bFgsLa1NUXVAPXRMKFAIUTkZZEBMXDVhACVkYGwNdRUVVEAAWDRMBBlMNExwUUFkXCkQRGhcNFHwhFxgbBExFUloXDFtZEwoTDApECBQfFAsXbxEGRkNEUARYUUtDDhMHFkhHWVZJb1IOV19VVUdfDQpDQVkXBhQZR1hbVwhAXkVrFAxQFQsSAlMNAQAUTg==
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 1 " tvg-name="SONY SPORTS TEN 1" group-title="Favorites" tvg-logo="https://i.imgur.com/MbTpnwO.png",SONY SPORTS TEN 1
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://tv.cloudcdn.me:80/live.ts?channelId=289&uid=15301&deviceMac=00:1A:79:1D:53:3F
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 2 " tvg-name="SONY SPORTS TEN 2" group-title="Favorites" tvg-logo="https://i.imgur.com/LJGok7x.png",SONY SPORTS TEN 2
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://tv.cloudcdn.me:80/live.ts?channelId=290&uid=15301&deviceMac=00:1A:79:1D:53:3F
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 3 " tvg-name="SONY SPORTS TEN 3" group-title="Favorites" tvg-logo="https://i.imgur.com/TWNbDTu.png",SONY SPORTS TEN 3
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://tv.cloudcdn.me:80/live.ts?channelId=291&uid=15301&deviceMac=00:1A:79:1D:53:3F
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 4 " tvg-name="SONY SPORTS TEN 4" group-title="Favorites" tvg-logo="https://i.imgur.com/TqTashc.png",SONY SPORTS TEN 4
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://tv.cloudcdn.me:80/live.ts?channelId=105349&uid=15301&deviceMac=00:1A:79:1D:53:3F
+
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
+#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 5 " tvg-name="SONY SPORTS TEN 5" group-title="Favorites" tvg-logo="https://i.imgur.com/YEH5jdY.png",SONY SPORTS TEN 5
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+http://mutant.arrox.top:80/play/live.php?mac=00:1A:79:FF:04:8C&stream=487335&extension=m3u8
+
+#EXTINF:-1,tvg-id="体育频道|Arena" tvg-name="体育频道|Arena" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Arena
+
+#EXTINF:-1,tvg-id="体育频道|Arena 2" tvg-name="体育频道|Arena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena 2
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Arena2
+
+#EXTINF:-1,tvg-id="体育频道|BolaArena 1" tvg-name="体育频道|BolaArena 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA1.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena1
+
+#EXTINF:-1,tvg-id="体育频道|BolaArena 2" tvg-name="体育频道|BolaArena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 2
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena2
+
+#EXTINF:-1 tvg-id="Astro.Premier.League.my" tvg-logo="https://i.imgur.com/M4nTRLb.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League FHD
+https://smart.pendy.dpdns.org/Smart.php?id=Assp1
+
+#EXTINF:-1 tvg-id="Astro.Premier.League.2.my" tvg-logo="https://i.imgur.com/f6hG3Ok.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League 2 FHD
+#EXTVLCOPT:network-caching=1000https://smart.pendy.dpdns.org/Smart.php?id=Assp2
+
+#EXTINF:-1 tvg-id="Astro.Grandstand.my" tvg-logo="https://i.imgur.com/u92HNWn.png" group-title="THỂ THAO QUỐC TẾ", Astro Grandstand FHD
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Assp3
+
+#EXTINF:-1 tvg-id="Astro.Football.my" tvg-logo="https://i.imgur.com/ixUEirO.png" group-title="THỂ THAO QUỐC TẾ", Astro Football FHD
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Assp4
+
+#EXTINF:-1,tvg-id="体育频道|Astro Sports Plus" tvg-name="体育频道|Astro Sports Plus" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROSPORTSPLUS.png" group-title="THỂ THAO QUỐC TẾ",Astro Sports Plus
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=go_sportsplus
+
+#EXTINF:-1,tvg-id="体育频道|Astro Badminton 1" tvg-name="体育频道|Astro Badminton 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON1.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 1
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=go_badminton1
+
+#EXTINF:-1,tvg-id="体育频道|Astro Badminton 2" tvg-name="体育频道|Astro Badminton 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON2.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 2
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=go_badminton2
+
+#EXTINF:-1,tvg-id="体育频道|Astro W-Sports" tvg-name="体育频道|Astro W-Sports" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROWSPORTS.png" group-title="THỂ THAO QUỐC TẾ",Astro W-Sports
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=go_assp5
+
+#EXTINF:-1,tvg-id="体育频道|Astro Cricket" tvg-name="体育频道|Astro Cricket" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROCRICKET.png" group-title="THỂ THAO QUỐC TẾ",Astro Cricket
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Acricket
+
+#EXTINF:-1,tvg-id="体育频道|Astro Golf" tvg-name="体育频道|Astro Golf" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROGOLF.png" group-title="THỂ THAO QUỐC TẾ",Astro Golf
+#EXTVLCOPT:network-caching=1000
+https://smart.pendy.dpdns.org/Smart.php?id=Agolf
