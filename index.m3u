@@ -41,95 +41,53 @@ https://wildearth-plex.amagi.tv/master.m3u8
 #EXTVLCOPT:network-caching=1000
 https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CINEMAX" tvg-name="CINEMAX" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",HBO CINEMAX
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Cinemax
-
-#EXTINF:-1 tvg-id="ANIMAX" tvg-name="ANIMAX" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/Cinemax_LA.png",ANIMAX
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Animax
-
-//========================================================================
-// PLAYLIST CARTOON
-//========================================================================
-
-#EXTINF: -1,CARTOON NETWORK
-#EXTVLCOPT:network-caching=1000
-http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505818.m3u8
-
-#EXTINF: -1,Dreamwork
-#EXTVLCOPT:network-caching=1000
-http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505829.m3u8
-
-#EXTINF: -1,Dunia Anak
-#EXTVLCOPT:network-caching=1000
-http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505830.m3u8
-
-#EXTINF: -1,HoRee!
-#EXTVLCOPT:network-caching=1000
-http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505844.m3u8
-
-#EXTINF: -1,Fun pLaNeT
-#EXTVLCOPT:network-caching=1000
-http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505848.m3u8
-
-#EXTINF: -1,nick jr.
-#EXTVLCOPT:network-caching=1000
-#http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505861.m3u8
-
-#EXTINF: -1,nickelodeon
-#EXTVLCOPT:network-caching=1000
-http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505862.m3u8
-
-#EXTINF:-1,DisneyXD
-#EXTVLCOPT:network-caching=1000
-http://fortv.cc:8080/live/cQnq6G/652882/75621.m3u8
-
 //========================================================================
 // PLAYLIST LOCAL
 //========================================================================
 
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/RCTI.png",RCTI
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+#EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Rcti
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
 
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/mnctv.png",MNCTV
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+#EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Mnctv
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
 
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/gtv.png",GTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Gtv
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 
 #EXTINF:-1 tvg-id="Trans 7" tvg-name="Trans 7" tvg-logo="https://iptvsystem.my.id/img/trans7.png" group-title="Favorites",TRANS 7
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
+https://streaming.indihometv.com/atm/DASH/trans7/manifest.mpd
 
 #EXTINF:-1 tvg-id="Trans TV" tvg-name="Trans TV" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/transtv.png",TRANS TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Transtv
+https://streaming.indihometv.com/atm/DASH/transtv/manifest.mpd
 
 #EXTINF:-1 tvg-id="ANTV" tvg-name="ANTV" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/id/f/fd/Antv_logo%282009%29.png",ANTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Antv
+https://raw.githubusercontent.com/warningfm/streams/master/live/m3u8/id/b630a001384603f.m3u8
 
 #EXTINF:-1 tvg-id="INDOSIAR" tvg-name="INDOSIAR" tvg-logo="https://iili.io/JMp3wV1.png" group-title="Favorites",INDOSIAR
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Indosiar
+http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 
 #EXTINF:-1 tvg-id="SCTV" tvg-name="SCTV" tvg-logo="https://iili.io/JMp3iiX.png" group-title="Favorites",SCTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=SCTV
+http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 
 #EXTINF:-1 tvg-id="MOJI TV" tvg-name="MOJI TV" tvg-logo="https://cdns.klimg.com/merdeka.com/i/w/news/2022/08/30/1467272/540x270/moji-surga-tontonan-bagi-pemirsa-olahraga-dan-anak-muda.png" group-title="Favorites",MOJI TV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -156,17 +114,12 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1230509683_b
 #EXTINF:-1 tvg-id="TV ONE" tvg-name="TV ONE" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/tvone.png",TV ONE
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Tvone
+https://op-group1-swiftservehd-1.dens.tv/h/h224/02.m3u8
 
 #EXTINF:-1 tvg-id="GARUDA TV" tvg-name="GARUDA TV" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/GarudaTv.png",GARUDA TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-
-#EXTINF:-1 tvg-id="RTV" tvg-name="RTV" group-title="Favorites" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/5/5a/Rajawali_Televisi.svg/250px-Rajawali_Televisi.svg.png",RTV
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Rtv
 
 #EXTINF:-1 tvg-id="RRINET" tvg-name="RRINET" group-title="Favorites" tvg-logo="https://iili.io/Jmo8ULF.png",RRI NET
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -186,22 +139,15 @@ http://202.147.193.244/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
 #EXTINF:-1 tvg-id="METRO TV" tvg-name="METRO TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",METRO TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=metrotv_eko
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="KOMPAS TV" tvg-name="KOMPAS TV" group-title="Favorites" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_106.png",KOMPAS TV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Kompass
-
-#EXTINF:-1 tvg-id="SINDO NEWS" tvg-name="SINDO NEWS" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/SindoNews.png",SINDONEWS
-#KODIPROP:inputstream=inputstream.ffmpegdirect
-#KODIPROP:mimetype=video/mp2t
-#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
-#KODIPROP:inputstream.ffmpegdirect.open_mode=ffmpeg
-#KODIPROP:inputstream.ffmpegdirect.manifest_type=ts
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-http://202.147.193.244/live/eds/MNCnews-HDD/sa_dash/MNCnews-HDD.mpd
+https://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8
 
 #EXTINF:-1 tvg-id="SEATODAY" tvg-name="SEATODAY" group-title="Favorites" tvg-logo="https://www.visionplus.id/images/repository/594/594-LOGO-m.png",SEA TODAY
 #KODIPROP:inputstream=inputstream.ffmpegdirect
@@ -222,6 +168,38 @@ http://202.147.193.244/live/eds/SEA-Channel/sa_dash/SEA-Channel.mpd
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
 http://202.147.193.244/live/eds/IDX/sa_dash/IDX.mpd
+
+//========================================================================
+// PLAYLIST CARTOON
+//========================================================================
+
+#EXTINF: -1,CARTOON NETWORK
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505818.m3u8
+
+#EXTINF: -1,Dreamwork
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505829.m3u8
+
+#EXTINF: -1,Dunia Anak
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505830.m3u8
+
+#EXTINF: -1,HoRee!
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505844.m3u8
+
+#EXTINF: -1,Fun pLaNeT
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505848.m3u8
+
+#EXTINF: -1,Nickelodeon
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505862.m3u8
+
+#EXTINF:-1,DisneyXD
+#EXTVLCOPT:network-caching=1000
+http://fortv.cc:8080/live/cQnq6G/652882/75621.m3u8
 
 // ========================================================================
 // PLAYLIST KOREA
@@ -259,18 +237,6 @@ http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505814.m3u
 #EXTINF: -1,SPOTV2
 #EXTVLCOPT:network-caching=1000
 http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505815.m3u8
-
-#EXTINF:-1,DubaiSports 1
-#EXTVLCOPT:network-caching=1000
-https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/master.m3u8
-
-#EXTINF:-1,DubaiSports 2
-#EXTVLCOPT:network-caching=1000
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
-
-#EXTINF:-1,DubaiSports 3
-#EXTVLCOPT:network-caching=1000
-https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="TVRI SPORT" tvg-name="TVRI SPORT" group-title="Favorites" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/TVRI-Sport-HD.png",TVRI SPORT
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -433,57 +399,3 @@ http://tv.cloudcdn.me:80/live.ts?channelId=105349&uid=15301&deviceMac=00:1A:79:1
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.04 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
 http://mutant.arrox.top:80/play/live.php?mac=00:1A:79:FF:04:8C&stream=487335&extension=m3u8
-
-#EXTINF:-1,tvg-id="体育频道|Arena" tvg-name="体育频道|Arena" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Arena
-
-#EXTINF:-1,tvg-id="体育频道|Arena 2" tvg-name="体育频道|Arena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro Arena 2
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Arena2
-
-#EXTINF:-1,tvg-id="体育频道|BolaArena 1" tvg-name="体育频道|BolaArena 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA1.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 1
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena1
-
-#EXTINF:-1,tvg-id="体育频道|BolaArena 2" tvg-name="体育频道|BolaArena 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|BOLAARENA2.png" group-title="THỂ THAO QUỐC TẾ",Astro BolaArena 2
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Bolaarena2
-
-#EXTINF:-1 tvg-id="Astro.Premier.League.my" tvg-logo="https://i.imgur.com/M4nTRLb.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League FHD
-https://smart.pendy.dpdns.org/Smart.php?id=Assp1
-
-#EXTINF:-1 tvg-id="Astro.Premier.League.2.my" tvg-logo="https://i.imgur.com/f6hG3Ok.png" group-title="THỂ THAO QUỐC TẾ", Astro Premier League 2 FHD
-#EXTVLCOPT:network-caching=1000https://smart.pendy.dpdns.org/Smart.php?id=Assp2
-
-#EXTINF:-1 tvg-id="Astro.Grandstand.my" tvg-logo="https://i.imgur.com/u92HNWn.png" group-title="THỂ THAO QUỐC TẾ", Astro Grandstand FHD
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Assp3
-
-#EXTINF:-1 tvg-id="Astro.Football.my" tvg-logo="https://i.imgur.com/ixUEirO.png" group-title="THỂ THAO QUỐC TẾ", Astro Football FHD
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Assp4
-
-#EXTINF:-1,tvg-id="体育频道|Astro Sports Plus" tvg-name="体育频道|Astro Sports Plus" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROSPORTSPLUS.png" group-title="THỂ THAO QUỐC TẾ",Astro Sports Plus
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=go_sportsplus
-
-#EXTINF:-1,tvg-id="体育频道|Astro Badminton 1" tvg-name="体育频道|Astro Badminton 1" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON1.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 1
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=go_badminton1
-
-#EXTINF:-1,tvg-id="体育频道|Astro Badminton 2" tvg-name="体育频道|Astro Badminton 2" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROBADMINTON2.png" group-title="THỂ THAO QUỐC TẾ",Astro Badminton 2
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=go_badminton2
-
-#EXTINF:-1,tvg-id="体育频道|Astro W-Sports" tvg-name="体育频道|Astro W-Sports" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROWSPORTS.png" group-title="THỂ THAO QUỐC TẾ",Astro W-Sports
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=go_assp5
-
-#EXTINF:-1,tvg-id="体育频道|Astro Cricket" tvg-name="体育频道|Astro Cricket" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROCRICKET.png" group-title="THỂ THAO QUỐC TẾ",Astro Cricket
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Acricket
-
-#EXTINF:-1,tvg-id="体育频道|Astro Golf" tvg-name="体育频道|Astro Golf" tvg-logo="https://epg.112114.xyz/logo/体育频道|ASTROGOLF.png" group-title="THỂ THAO QUỐC TẾ",Astro Golf
-#EXTVLCOPT:network-caching=1000
-https://smart.pendy.dpdns.org/Smart.php?id=Agolf
