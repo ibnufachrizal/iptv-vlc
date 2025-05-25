@@ -8,12 +8,10 @@
 #EXTM3U
 # (●) Last Update: 2025-03-30 23:29:00 GMT+7 "
 
-#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" group-title="Favorites" tvg-logo="https://iptvsystem.my.id/img/RCTI.png",RCTI
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:network-caching=1000
+#EXTINF:-1 group-title="RCTI+" group-logo="https://i.imgur.com/hQChToD.png?v=1.0.0.1" tvg-id="RCTI.id" tvg-logo="https://i.imgur.com/gsh3JQg.png",RCTI
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
-https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://rcti-cutv.rctiplus.id/rcti-sdi.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
@@ -115,7 +113,7 @@ http://khano.nng.cloudns.us/live/m3u8/id/378a642ff00fed8.m3u8
 https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest.mpd|Referer=https://www.indihometv.com
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/D5zoAFR.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" ch-number="20" tvg-id="CNNIndonesia.id" tvg-name="CNN Indonesia", CNN Indonesia
-https://dl.dropbox.com/s/oxlj7mwpf13ucok/d12f0b99ed1f070.m3u8
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1238913108_b384000_sleng.m3u8
 
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
