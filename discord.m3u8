@@ -115,11 +115,6 @@ http://cdn.nng.cloudns.us/live/m3u8/id/270f72deeb5843h.m3u8
 
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/ZpcePba.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/7WOjiYd.png?v=1.0.0.1" ch-number="24" tvg-id="Magna Channel.id" tvg-name="Magna Channel.id", Magna Channel
-http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226cce.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/Si0yCff.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/7WOjiYd.png?v=1.0.0.1" ch-number="25" tvg-id="BeritaSatu.id" tvg-name="BeritaSatu", BeritaSatu
 http://cdn.nng.cloudns.us/live/m3u8/id/270f72deeb5843g.m3u8
 
@@ -145,14 +140,6 @@ http://khano.nng.cloudns.us/live/m3u8/Kids/86555c60e79d125.m3u8
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/SpJXpqF.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="CartoonNetwork.id" tvg-name="Cartoon Network", Cartoon Network
 http://khano.nng.cloudns.us/live/m3u8/Kids/20e3acedb66331e.m3u8
-
-#EXTVLCOPT:http-referrer=https://www.indihometv.com/
-#KODIPROP:inputstreamaddon=inputstream.adaptive 
-#KODIPROP:inputstream.adaptive.manifest_type=dash 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=64756e6961616e616b30303030303030:40d96782fdd3ff05e7c0bf9aa7af8ce5
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ZaWGEs5.png" group-title="Kids", Dunia Anak
-https://cdn08jtedge.indihometv.com/dassdvr/130/duniaanak_dash/manifest.mpd
 
 #EXTVLCOPT:http-referrer=https://cignalplay.com/
 #EXTVLCOPT:http-origin=https://cignalplay.com
