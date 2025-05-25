@@ -105,11 +105,6 @@ http://khano.nng.cloudns.us/live/m3u8/id/378a642ff00fed8.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/D5zoAFR.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" ch-number="20" tvg-id="CNNIndonesia.id" tvg-name="CNN Indonesia", CNN Indonesia
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1238913108_b384000_sleng.m3u8
 
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/iBrOoMG.png?v=1.0.0.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" ch-number="21" tvg-id="JawaPosTV.id" tvg-name="Jawa Pos TV", Jawa Pos TV
-http://khano.nng.cloudns.us/live/m3u8/id/459caa984301138.m3u8
-
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/jmrik3d.png?v=1.0.0.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" ch-number="22" tvg-id="CNBCIndonesia.id" tvg-name="CNBC Indonesia", CNBC Indonesia
 http://khano.nng.cloudns.us/live/m3u8/id/ef7e8c7bc86110e.m3u8
 
@@ -143,110 +138,13 @@ http://cdn.nng.cloudns.us/live/m3u8/id/3f58825fe229a8i.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/H5CmoZv.png?v=1.0.0.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/7WOjiYd.png?v=1.0.0.1" ch-number="28" tvg-id="BNTV" tvg-name="BN Channel",BN Channel
 http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
 
-########################################################     Local     ########################################################
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/48RdW2A.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="BaliTV.id" tvg-name="Bali TV", Bali TV
-https://cdn09jtedge.indihometv.com/atm/DASH/balitv/manifest.mpd|Referer=https://www.indihometv.com
-
-#EXTVLCOPT:http-referrer=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/JxtgBmg.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="Channel Jowo.id" tvg-name="Channel Jowo.id", Channel Jowo
-http://khano.nng.cloudns.us/live/m3u8/id/1de333734b1b7e0.m3u8
-
-#EXTVLCOPT:http-referrer=https://www.dens.tv
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/1eaZ3bd.png?v=1.1.1.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="DAAITV.id" tvg-name="DAAI TV", DAAITV
-http://khano.nng.cloudns.us/live/m3u8/id/0525ed2747e3161.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/9i6ufQh.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="ElshintaTV.my.id" tvg-name="Elshinta TV.id", ElshintaTV
-https://khano.nng.cloudns.us/live/m3u8/id/383fb71f4a76ab2.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/bKLoSVx.png?v=1.1.1.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="JTV.id" tvg-name="JTV", JTV
-http://khano.nng.cloudns.us/live/m3u8/id/226fe77699e03c6.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/NVODNmw.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="JakTV.id" tvg-name="Jak TV", JakTV
-http://khano.nng.cloudns.us/live/m3u8/id/a6e7e966ea54cd3.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/9sN7WXU.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="BandungTV.id" tvg-name="Bandung TV", Bandung TV
-http://khano.nng.cloudns.us/live/m3u8/id/829dbdfe0b57013.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/bCXtnI3.png?v=1.1.1.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="BadarTV" tvg-name="BRTV", BRTV
-http://khano.nng.cloudns.us/live/m3u8/id/1375b51bb1b2c31.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/RFYcXrq.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="Inspira.id", Inspira TV
-http://khano.nng.cloudns.us/live/m3u8/id/0c913970f4e013e.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/e4ZNl62.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="SaktiTV" tvg-name="Sakti TV", Sakti TV
-http://khano.nng.cloudns.us/live/m3u8/id/3202e9487d9cd5c.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/1GW0BTz.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="TVRI.id" tvg-name="TVRI", TVRI Jawa Timur
-http://khano.nng.cloudns.us/live/m3u8/id/3f58825fe229a8g.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/VLR16Or.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="TVKU" tvg-name="TVKU", TVKU
-http://khano.nng.cloudns.us/live/m3u8/id/29afb26faff1ccd.m3u8
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/pzwi2WE.png?v=1.0.0.1" group-title="Local" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" tvg-id="dutaTV" tvg-name="duta TV", duta TV
-http://khano.nng.cloudns.us/live/m3u8/id/3254f236ad3e872.m3u8
-
 ########################################################      Kids     ########################################################
-
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTVLCOPT:network-caching=1000
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/iIkcrZF.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="Biznet Kids", B Kids
-http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/zBJF9fu.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="Cartoonito.sg" tvg-name="Cartoonito", Cartoonito
 http://khano.nng.cloudns.us/live/m3u8/Kids/86555c60e79d125.m3u8
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/SpJXpqF.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="CartoonNetwork.id" tvg-name="Cartoon Network", Cartoon Network
 http://khano.nng.cloudns.us/live/m3u8/Kids/20e3acedb66331e.m3u8
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=194891b41223a5f1ec2beff1c95e2f53:eeb1fb2ec011f9563653495f9ac427b1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/Cm8aFT9.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="Cbeebies.id" tvg-name="CBeebies", CBeebies
-http://202.147.193.244/live/eds/Cbeebies/sa_dash/Cbeebies.mpd|Referer=https://www.visionplus.id
-
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/1mftATn.png?v=1.0.0.1" group-title="Kids" tvg-id="Disney International.in" tvg-name="Disney International.in", Disney Channel
-https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd
-
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=221e176f3dfabb84ff506d65dd93b09f:6a97b8d4beed4d4b1697c1488706c6ca
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/S5Jp3Kq.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="Disney Junior SD East.us" tvg-name="Disney Junior SD East.us", Disney Jr.
-https://a181aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/0qvo3uakfd/out/v1/d62a555c1e5945f3bae88ae4018321d4/cenc.mpd
-
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=39cebece8b36640f9ba3f248ecfdf86a:fad936249e036830aa5bef41bec05326
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/Usm7lN7.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="Disney XD (East).us" tvg-name="Disney XD (East).us", Disney XD
-https://a53aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/jts4tzzv1k/out/v1/8a5b29f7068c415aa371ea95743382e6/cenc.mpd
 
 #EXTVLCOPT:http-referrer=https://www.indihometv.com/
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
