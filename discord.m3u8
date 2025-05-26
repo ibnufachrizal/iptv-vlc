@@ -8,10 +8,22 @@
 #EXTM3U
 # (●) Last Update: 2025-03-30 23:29:00 GMT+7 "
 
+########################################################     Movies    ########################################################
+
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/QycjHmC.png?v=1.0.0.1" group-title="Vs.🇰🇷 Korengan" tvg-id="tvNAsia.hk" tvg-name="tvN HD", tvN
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://raw.githubusercontent.com/Iqbalbala/STBDIGITAL/refs/heads/main/tvnid.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn4.mbahnunungonline.net/img/R28vFlE.png?v=1.0.0.1" group-title="Vs.Movies" tvg-id="tvNMovies.id" tvg-name="tvN Movies HD", TVN Movies
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
+https://raw.githubusercontent.com/Iqbalbala/STBDIGITAL/refs/heads/main/tvnmovies.m3u8
 ######################################################## Entertainment ########################################################
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/nQEfdUN.png?v=1.0.0.1" group-title="Entertainment" tvg-id="Aniplus.id" tvg-name="Aniplus", Aniplus
+#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTVLCOPT:network-caching=1000
 http://khano.nng.cloudns.us/live/m3u8/int/4831104be353eb0.m3u8
 
 ######################################################## Local ########################################################
