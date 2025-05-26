@@ -3,12 +3,7 @@
 # PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
 # You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
 
-#EXTM3U x-tvg-url="https://nano.nng.cloudns.us/x1/epg/guide.xml.gz" url-tvg="https://nano.nng.cloudns.us/x1/epg/guide.xml.gz" refresh="3600"
-
 #EXTM3U
-# (●) Last Update: 2025-03-30 23:29:00 GMT+7 "
-
-######################################################## Entertainment ########################################################
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/nQEfdUN.png?v=1.0.0.1" group-title="Entertainment" tvg-id="Aniplus.id" tvg-name="Aniplus", Aniplus
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
