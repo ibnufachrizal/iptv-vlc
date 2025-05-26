@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/Iqbalbala/STBDIGITAL/refs/heads/main/Transtv.m
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/kkQGC04.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="9" tvg-id="GTV.id" tvg-name="GTV", GTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
-https://gtv-cutv.rctiplus.id/gtv-sdi.m3u8
+https://raw.githubusercontent.com/AKPLAYLISTTV/iptv/eba3d7be192e28135fe58e5b45761a61d56d256b/indo/gtvhd.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
