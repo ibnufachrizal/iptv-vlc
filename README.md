@@ -6,8 +6,7 @@ Panduan ini menjelaskan langkah-langkah untuk menginstal dan menjalankan Bot Dis
 * **CORE:** 2
 * **RAM:** 8GB
 * **SERVER:** Indonesia
-* **OS:** Ubuntu Focal 22.04)
-* 
+* **OS:** Minimal Ubuntu Focal 22.04)
 ---
 
 
