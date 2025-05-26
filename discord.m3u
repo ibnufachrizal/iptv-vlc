@@ -54,9 +54,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8
 http://khano.nng.cloudns.us/live/m3u8/id/3f58825fe229a9f.m3u8
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/lFAUBcK.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" ch-number="16" tvg-id="Moji.id" tvg-name="Moji", MOJI
-#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
-#EXTVLCOPT:network-caching=1000
 http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv
@@ -115,7 +113,6 @@ http://khano.nng.cloudns.us/live/m3u8/Kids/20e3acedb66331e.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0a3aaee779e940db8ff24f9f3eb5c98a:440e1c1ce9ba337844409c8bcad5a268
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 14) ExoPlayerLib/2.15.1
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/Gpcso8T.png?v=1.0.0.1" group-title="Kids" group-logo="https://warningfm.github.io/v3/img/BxvUXcn.png?v=1.0.0.1" tvg-id="Horee.id" tvg-name="Horee", Horee
 http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505844.m3u8
 
