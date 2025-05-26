@@ -19,6 +19,7 @@ Jalankan perintah berikut untuk mengunduh dan menginstal Cloud9 CLI.
     
 
 **Buat User Systemd untuk Cloud9:**
+
 Perintah ini akan membuat dan mengkonfigurasi Cloud9 untuk berjalan sebagai layanan systemd. Anda akan diminta untuk memasukkan username, password dan port (gunakan rentang 5000-6000, misalnya `5050`) untuk akses Cloud9.
  
     sudo c9cli create systemd
@@ -37,6 +38,7 @@ Tambahkan baris berikut di akhir file, ganti `namauser` dengan username Anda:
 Simpan dan keluar (Ctrl+X, lalu Y, lalu Enter jika menggunakan nano).
 
 **Akses Cloud9 IDE:**
+
 Buka browser Anda dan navigasikan ke `http://IPVPS:PORT`. Masukkan username dan password yang telah Anda buat pada langkah 2b.
 
 ## 2. Persiapan Sistem dan Instalasi Docker
@@ -76,7 +78,7 @@ Setelah file `.env` dikonfigurasi dengan benar, Anda dapat menjalankan Bot mengg
 
     docker compose up -d
 
-**Melihat Log (Jika Berjalan di Background):**
+Melihat Log (Jika Berjalan di Background):**
 
     docker compose logs -f
 ---
