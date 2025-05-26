@@ -6,9 +6,8 @@ Panduan ini menjelaskan langkah-langkah untuk menginstal dan menjalankan Bot Dis
 * **CORE:** 2
 * **RAM:** 8GB
 * **SERVER:** Indonesia
-* **OS:** Minimal Ubuntu Focal 22.04)
+* **OS Minimum:** Ubuntu Focal 22.04 
 ---
-
 
 ## 1. Instalasi Cloud9 IDE
 
