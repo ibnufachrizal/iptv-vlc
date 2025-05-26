@@ -1,7 +1,4 @@
-# Some tv channels use DRM, maybe the channel cannot be played (usually stuck loading) because your device does not support DRM.
-# This is a live tv playlist selected for OTT Player app only (you can find it in Play Store but i don't know is that available in App Store).
-# PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
-# You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
+#EXTM3U x-tvg-url="https://nano.nng.cloudns.us/x1/epg/guide.xml.gz" url-tvg="https://nano.nng.cloudns.us/x1/epg/guide.xml.gz" refresh="3600"
 
 #EXTM3U
 
