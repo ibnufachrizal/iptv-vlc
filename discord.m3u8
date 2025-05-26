@@ -3,11 +3,7 @@
 # PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
 # You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
 
-#EXTM3U x-tvg-url="https://nano.nng.cloudns.us/x1/epg/guide.xml.gz" url-tvg="https://nano.nng.cloudns.us/x1/epg/guide.xml.gz" refresh="3600"
-
-#EXTM3U
-# (●) Last Update: 2025-03-30 23:29:00 GMT+7 "
-
+#EXTM3U  x-tvg-url=https://raw.githubusercontent.com/kemalsyabaniadama/test-epg/main/guide.xml refresh="1440" max-conn="1" refresh="24"
 
 ######################################################## Entertainment ########################################################
 
