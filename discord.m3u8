@@ -37,8 +37,7 @@ https://op-group1-swiftservehd-1.dens.tv/s/s07/01.m3u8
 #EXTVLCOPT:network-caching=1000
 https://raw.githubusercontent.com/Iqbalbala/STBDIGITAL/4833c3075fc2a5fc50c58e78683665578678fefd/Antv.m3u8
 
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/AySErC1.png?v=1.0.0.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="8" tvg-id="TransTV.my.id" tvg-name="TransTV", TransTV
-#EXTVLCOPT:http-referrer=https://www.dens.tv
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/k3IqSHs.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/ePGe3Yp.png?v=1.0.0.1" ch-number="5" tvg-id="Indosiar.my.id" tvg-name="Indosiar", Indosiar
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
 http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
@@ -46,7 +45,8 @@ http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/sWeXuef.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="7" tvg-id="Trans7.my.id" tvg-name="Trans7", Trans7
 https://raw.githubusercontent.com/Iqbalbala/STBDIGITAL/refs/heads/main/Trans7.m3u8
 
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/k3IqSHs.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/ePGe3Yp.png?v=1.0.0.1" ch-number="5" tvg-id="Indosiar.my.id" tvg-name="Indosiar", Indosiar
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/AySErC1.png?v=1.0.0.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="8" tvg-id="TransTV.my.id" tvg-name="TransTV", TransTV
+#EXTVLCOPT:http-referrer=https://www.dens.tv
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:network-caching=1000
 http://khano.nng.cloudns.us/live/m3u8/id/61061784f4a9271.m3u8
