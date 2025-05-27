@@ -51,6 +51,11 @@ https://raw.githubusercontent.com/Iqbalbala/STBDIGITAL/refs/heads/main/Transtv.m
 #EXTVLCOPT:network-caching=1000
 http://khano.nng.cloudns.us/live/m3u8/id/61061784f4a9271.m3u8
 
+#EXTINF:-1 tvg-id="GTV" tvg-logo="https://i.imgur.com/padzXjE.jpeg" group-title="NASIONAL",GTV 2 ON (RW)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
+https://av-ch-cdn.mncnow.id/live/eds/GTV-HD/sa_dash/GTV-HD.mpd
+
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/kkQGC04.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="9" tvg-id="GTV.id" tvg-name="GTV", GTV
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://allcutv.rctiplus.id/gtv2023.m3u8
