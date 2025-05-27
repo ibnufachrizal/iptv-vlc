@@ -52,9 +52,8 @@ https://raw.githubusercontent.com/Iqbalbala/STBDIGITAL/refs/heads/main/Transtv.m
 http://khano.nng.cloudns.us/live/m3u8/id/61061784f4a9271.m3u8
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/kkQGC04.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="9" tvg-id="GTV.id" tvg-name="GTV", GTV
-#EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXT-X-STREAM-INF:BANDWIDTH=3000000,RESOLUTION=1280x720
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1748368083~hmac=2ede658171f76812ffb0d5467079e710fb4b2bfb6694cadd9e4a0b170fb23e47
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?auth_key=1676776669-0f8c35a6b4c2bc9dc3e7d23b9a357ffe-0-800f1a25e1759b9727c8358a717e2074
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv
 #EXTVLCOPT:http-user-agent=OTTNavigator/1.7.0.2.4 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
