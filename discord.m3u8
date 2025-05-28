@@ -18,16 +18,14 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1238913108_b384
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/jmrik3d.png?v=1.0.0.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/vOExED2.png?v=1.1.1.1" ch-number="22" tvg-id="CNBCIndonesia.id" tvg-name="CNBC", CNBC
 http://khano.nng.cloudns.us/live/m3u8/id/ef7e8c7bc86110e.m3u8
 
-#EXTINF:-1 group-title="RCTI+" group-logo="https://i.imgur.com/hQChToD.png?v=1.0.0.1" tvg-id="RCTI.id" tvg-logo="https://i.imgur.com/gsh3JQg.png",RCTI
+#EXTINF:900 group-title="RCTI+" group-logo="https://i.imgur.com/hQChToD.png?v=1.0.0.1" tvg-id="RCTI.id" tvg-logo="https://i.imgur.com/gsh3JQg.png",RCTI
 https://rcti-cutv.rctiplus.id/rcti-sdi-avc1_800000=7-mp4a_96000=1.m3u8
 
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/cAvYUMa.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="3" tvg-id="MNCTV.id" tvg-name="MNCTV", MNCTV
-#EXTVLCOPT:http-user-agent=android-R+
-#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-https://streaming.indihometv.com/atm/DASH/tv9/manifest.mpd
+#EXTINF:900 tvg-logo="https://warningfm.github.io/v3/img/cAvYUMa.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="3" tvg-id="MNCTV.id" tvg-name="MNCTV", MNCTV
+https://mnctv-cutv.rctiplus.id/mnctv-sdi-avc1_800000=7-mp4a_96000=1.m3u8
 
-#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/kkQGC04.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="9" tvg-id="GTV.id" tvg-name="GTV", GTV
-https://wahyu1ptv.pages.dev/gTv-HD.m3u8
+#EXTINF:900 tvg-logo="https://warningfm.github.io/v3/img/kkQGC04.png?v=1.1.1.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/U5JFSGW.png?v=1.0.0.1" ch-number="9" tvg-id="GTV.id" tvg-name="GTV", GTV
+https://gtv-cutv.rctiplus.id/gtv-sdi-avc1_800000=7-mp4a_96000=1.m3u8
 
 #EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/HwXQJXW.png?v=1.0.0.1" group-title="🇮🇩 Nasional" group-logo="https://warningfm.github.io/v3/img/ePGe3Yp.png?v=1.0.0.1" ch-number="2" tvg-id="SCTV.my.id" tvg-name="SCTV", SCTV
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
