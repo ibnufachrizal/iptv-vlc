@@ -5,7 +5,7 @@
 
 #EXTM3U  x-tvg-url=https://raw.githubusercontent.com/kemalsyabaniadama/test-epg/main/guide.xml refresh="1440" max-conn="1" refresh="24"
 
-#EXTINF:-1,Animax Japan (Indonesian Subs)
+#EXTINF:-1 tvg-logo="https://warningfm.github.io/v3/img/9sjx4gG.png?v=1.0.0.1" group-title="Entertainment" group-logo="" tvg-id="AnimaxAsia.id" tvg-name="Animax", Animax
 https://list.iptvcat.com/my_list/s/411d6172b558b5ee855747481aa5bd5e.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
