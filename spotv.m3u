@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTM3U x-tvg-url="https://iptvsystem.my.id/epg, http://lichphatsong.xyz/schedule/epg.xml.gz, http://cvtv.xyz/xmltv, https://github.com/iptv-pro/iptv-pro.github.io/raw/refs/heads/main/epg/epg.xml, https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600"
+
+# Some tv channels use DRM, maybe the channel cannot be played (usually stuck loading) because your device does not support DRM.
+# This is a live tv playlist selected for OTT Player app only (you can find it in Play Store but i don't know is that available in App Store).
+# PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
+# You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
+
+#EXTINF: -1,SPOTV
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505814.m3u8
+
+#EXTINF: -1,SPOTV2
+#EXTVLCOPT:network-caching=1000
+http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505815.m3u8
