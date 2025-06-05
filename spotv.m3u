@@ -6,10 +6,5 @@
 # PLEASE DO NOT REBROADCAST IPTV STREAM OR SELL IPTV URLS.
 # You must be wondering why these new channels are so few compared to before, this is because I select channel URLs that are truly safe for your device from data theft and that are still actively broadcasting.
 
-#EXTINF: -1,SPOTV
-#EXTVLCOPT:network-caching=1000
+#EXTINF: -1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="" group-title="Sports" drm-token="310533129D4368C/09D46A497281017" drm-type="token",SPOTV
 http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505814.m3u8
-
-#EXTINF: -1,SPOTV2
-#EXTVLCOPT:network-caching=1000
-http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505815.m3u8
