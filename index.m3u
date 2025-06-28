@@ -27,11 +27,9 @@ http://cdn.nng.cloudns.us/live/m3u8/ar/3058a2456b128c1.m3u8
 https://op-group1-swiftservehd-1.dens.tv/h/h201/02.m3u8?app_type=web&userid=lite&chname=ANIPLUS
 
 #EXTINF: -1,SPOTV
-#EXTVLCOPT:network-caching=1000
 http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505814.m3u8
 
 #EXTINF: -1,SPOTV2
-#EXTVLCOPT:network-caching=1000
 http://m1-max.dns-speedy.com:80/live/310533129D4368C/09D46A497281017/1505815.m3u8
 
 //========================================================================
